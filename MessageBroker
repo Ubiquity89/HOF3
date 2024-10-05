@@ -1,0 +1,19 @@
+### Message Brokers
+
+A message broker is a software that enables communication between services or applications using asynchronous messaging patterns. Backend developers should understand how to implement message brokers to decouple systems and improve scalability. Popular message brokers include:
+
+- **RabbitMQ**: A message broker that supports Advanced Message Queuing Protocol (AMQP). Commonly used for complex routing.
+  - [RabbitMQ Official Documentation](https://www.rabbitmq.com/documentation.html)
+  - [RabbitMQ Tutorials](https://www.rabbitmq.com/getstarted.html)
+  
+- **Apache Kafka**: A distributed streaming platform often used for event-driven architectures and high-throughput pipelines.
+  - [Kafka Documentation](https://kafka.apache.org/documentation/)
+  - [Getting Started with Apache Kafka](https://kafka.apache.org/quickstart)
+  
+- **Redis Pub/Sub**: Redis, a popular in-memory data structure store, provides a simple Pub/Sub messaging system.
+  - [Redis Pub/Sub](https://redis.io/topics/pubsub)
+
+### Why It’s Important:
+- Message brokers allow asynchronous communication between microservices, making systems more scalable and resilient to failure.
+- Understanding message brokers is critical for building decoupled architectures, especially in modern distributed systems.
+
